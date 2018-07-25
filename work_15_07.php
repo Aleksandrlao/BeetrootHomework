@@ -29,8 +29,8 @@ echo '<br>=================================================<br>';
 /* Задача 2: Дата и время последнего посещения
 Используя cookie реализовать вывод на страницу сообщения с датой и временем последнего визита. */
 $date = date("Y-m-d H:i:s");
-setcookie("lastVisit", $date, time()+360000);
 if( cookieIsset("lastVisit") ) {
+    setcookie("lastVisit", $date, time()+360000);
     echo 'В последний раз вы были:'.$_COOKIE["lastVisit"];
 } else {
     setcookie("lastVisit", $date, time()+360000);

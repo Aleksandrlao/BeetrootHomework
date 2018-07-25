@@ -11,4 +11,7 @@
 //include "control_15_07.php";
 
 // lesson 5: cookie, $_GET, $_POST
-include "work_15_07.php";
+//include "work_15_07.php";
+
+// lesson 8: общая проверка
+include "work_20_07.php";
