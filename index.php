@@ -14,4 +14,7 @@
 //include "work_15_07.php";
 
 // lesson 8: общая проверка
-include "work_20_07.php";
+//include "work_20_07.php";
+
+// lesson 20: общая проверка
+include "work_17_08.php";
