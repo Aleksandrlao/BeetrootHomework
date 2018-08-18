@@ -59,7 +59,7 @@ class User {
 
 
 $chipoSetting = new Setting(1, 0, 0);
-$chipo = new User('Chipolino', 'Lux', '21.08.2018', '25.08.2018', $chipoSetting);
+$chipo = new User('Chipolino', 'Lux', $chipoSetting);
 
 
 echo $chipo->name . '. Выбрал номер: ' . $chipo->type . ', с такими дополнительными услугами:';
